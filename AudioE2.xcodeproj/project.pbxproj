@@ -13,6 +13,10 @@
 		A73558CD2916C95C00126A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73558CB2916C95C00126A86 /* Main.storyboard */; };
 		A73558CF2916C95C00126A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73558CE2916C95C00126A86 /* Assets.xcassets */; };
 		A73558D22916C95C00126A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73558D02916C95C00126A86 /* LaunchScreen.storyboard */; };
+		A73558DD2916C9EE00126A86 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73558DA2916C9EE00126A86 /* AVFoundation.framework */; };
+		A73558DE2916C9EE00126A86 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73558DB2916C9EE00126A86 /* AVFAudio.framework */; };
+		A73558DF2916C9EE00126A86 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73558DC2916C9EE00126A86 /* AVKit.framework */; };
+		A73558E12916CD3100126A86 /* MUSIC3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A73558E02916CD3100126A86 /* MUSIC3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A73558CE2916C95C00126A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73558D12916C95C00126A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73558D32916C95C00126A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73558DA2916C9EE00126A86 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A73558DB2916C9EE00126A86 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
+		A73558DC2916C9EE00126A86 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A73558E02916CD3100126A86 /* MUSIC3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MUSIC3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73558DD2916C9EE00126A86 /* AVFoundation.framework in Frameworks */,
+				A73558DE2916C9EE00126A86 /* AVFAudio.framework in Frameworks */,
+				A73558DF2916C9EE00126A86 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,7 @@
 			children = (
 				A73558C42916C95C00126A86 /* AudioE2 */,
 				A73558C32916C95C00126A86 /* Products */,
+				A73558D92916C9EE00126A86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +68,7 @@
 		A73558C42916C95C00126A86 /* AudioE2 */ = {
 			isa = PBXGroup;
 			children = (
+				A73558E02916CD3100126A86 /* MUSIC3.mp3 */,
 				A73558C52916C95C00126A86 /* AppDelegate.swift */,
 				A73558C72916C95C00126A86 /* SceneDelegate.swift */,
 				A73558C92916C95C00126A86 /* ViewController.swift */,
@@ -65,6 +78,16 @@
 				A73558D32916C95C00126A86 /* Info.plist */,
 			);
 			path = AudioE2;
+			sourceTree = "<group>";
+		};
+		A73558D92916C9EE00126A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A73558DB2916C9EE00126A86 /* AVFAudio.framework */,
+				A73558DA2916C9EE00126A86 /* AVFoundation.framework */,
+				A73558DC2916C9EE00126A86 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73558E12916CD3100126A86 /* MUSIC3.mp3 in Resources */,
 				A73558D22916C95C00126A86 /* LaunchScreen.storyboard in Resources */,
 				A73558CF2916C95C00126A86 /* Assets.xcassets in Resources */,
 				A73558CD2916C95C00126A86 /* Main.storyboard in Resources */,
